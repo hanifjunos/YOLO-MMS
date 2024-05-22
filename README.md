@@ -40,5 +40,6 @@ darknet.exe detector train cfg/obj_visdrone.data cfg/YOLO-MMS_visdrone.cfg -map
 darknet.exe detector test cfg/obj_visdrone.data cfg/ YOLO-MMS_visdrone.weights -dont_show
 
 3.	Check mAP
-   
+```
 darknet.exe detector map cfg/obj_visdrone.data cfg/ YOLO-MMS_visdrone.weights -dont_show
+```
