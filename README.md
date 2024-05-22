@@ -21,13 +21,13 @@ Opencv contrib on github
 1.	Locate the image and label file of respective datasets in the ‘data’ folder.
 2.	Create test.txt and train.txt files for respective datasets that contain the list name of the images according to their directory. Then, create. names file that contains the list of classes in the dataset. Locate all files in the vedai/visdrone folder.
 3.	Create .data files for both datasets and locate in the ‘cfg’ folder. The file contains the following information:
-
+```
 classes= 12
 train  = vedai/train.txt  
 valid  = vedai/test.txt  
 names = vedai/obj.names  
 backup = backup/
-
+```
 4.	Locate the YOLO-MMS.cfg file in the ‘cfg’ folder.
 
 **Training & testing**
