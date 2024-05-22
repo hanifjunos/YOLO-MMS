@@ -2,6 +2,7 @@
 YOLO-MMS for aerial object detection model based on hybrid feature extractor and improved multiscale prediction
 
 **Setup prerequisites**
+
 This setup is for Windows 10 and NVIDIA-supported GPU.
 1.	Install Python 3.7.7, 64 bit
 Pip install numpy
